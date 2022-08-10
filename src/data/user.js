@@ -15,5 +15,5 @@ var users=[{
 }
 ]
 
-// #point4 changed user to users
+// part#1 point4 changed user to users
 module.exports=users;

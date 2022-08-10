@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/Library', {useUnifiedTopology: true, useNewUrlParser: true});
+mongoose.createConnection(process.env.MONGODB_URI || 'mongodb://localhost:27017/Library', {useUnifiedTopology: true, useNewUrlParser: true});
 const Schema = mongoose.Schema;
 
 

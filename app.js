@@ -61,7 +61,7 @@ app.get('/',function(req,res){
 
 
 
-app.listen(5000,()=>{
+app.listen(PORT,()=>{
     // part#1 point5 app listening to port 5000 and in log it was 3000. changed port to 5000 in log
     console.log("Server Ready on 5000");
 });
